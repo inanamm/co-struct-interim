@@ -1,0 +1,37 @@
+@import "_reset.css";
+@import url(//db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT);
+
+html {
+    background-color: blue;
+    background-image: url('assets/co–struct_project.jpg');
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    margin: 1em;
+}
+
+img.logo {
+    position: absolute;
+    transform: translate(0%, -50%);
+    display: flex;
+    width: 30vw;
+    padding: 1em 1em 1em 0;
+    top: 50vh;
+}
+
+img.background {
+
+}
+
+h1, a {
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: 'Monospac821 BT';
+    padding: 0 1em 0.2em 1em;
+    font-size: smaller;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+} 
