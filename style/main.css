@@ -7,14 +7,13 @@ body {
 }
 
 html {
-    background-color: blue;
+    background-color: darkgrey;
     background-image: url('assets/co–struct_project.jpg');
 }
 
 body {
-    height: 100vh;
     position: relative;
-    margin: 1em;
+    padding: 1em;
 }
 
 img.logo {
@@ -26,8 +25,14 @@ img.logo {
     top: 50vh;
 }
 
-img.background {
+div.information {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
+svg {
+    position: absolute;
 }
 
 h1, a, p {
@@ -35,8 +40,7 @@ h1, a, p {
     display: block;
     text-align: center;
     font-family: 'Monospac821 BT';
-    padding: 0 1em 0.2em 1em;
-    font-size: smaller;
-    text-transform: uppercase;
     letter-spacing: 0.015em;
+    font-size: 1.3em;
+    text-align: left;
 } 
