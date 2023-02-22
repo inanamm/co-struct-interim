@@ -1,6 +1,11 @@
 @import "_reset.css";
 @import url(//db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT);
 
+body {
+    @font-face {
+        font-family: "Monospac821 BT"; src: url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.eot"); src: url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.woff") format("woff"), url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/132e124d37c13ab350cd3cfbb789ac48.svg#Monospac821 BT") format("svg"); }
+}
+
 html {
     background-color: blue;
     background-image: url('assets/co–struct_project.jpg');
@@ -25,7 +30,7 @@ img.background {
 
 }
 
-h1, a {
+h1, a, p {
     color: white;
     display: block;
     text-align: center;
