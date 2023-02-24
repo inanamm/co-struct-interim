@@ -34,13 +34,13 @@ footer {
     bottom: 0;
     padding: 1em;
     line-height: normal;
+    column-gap: 1em;
 }
 
 .information-block {
     padding: 0%;
     width: 25%;
     vertical-align: top;
-    padding-right: 1em;
 }
 
 svg {
@@ -48,3 +48,13 @@ svg {
     size: 50%;
 }
 
+@media only screen and (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+    .information-block {
+        width: 100%
+    }
+}
