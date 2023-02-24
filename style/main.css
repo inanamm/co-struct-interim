@@ -2,7 +2,12 @@
 @import url(//db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT);
 
 html {
-    background-color: darkgrey;
+    background: url(assets/co–struct_project-jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     color: white;
     text-align: center;
     font-family: 'Monospac821 BT';
