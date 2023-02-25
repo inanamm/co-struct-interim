@@ -92,7 +92,7 @@ body::before {
     bottom: 0px;
     left: 0px;
     content: "";
-    opacity: 0.6;
+    opacity: 0.55;
 }
 
 section {
@@ -111,6 +111,7 @@ footer {
     padding: 1em;
     line-height: normal;
     column-gap: 1em;
+    opacity: 0;
 }
 
 .information-block {
@@ -120,6 +121,7 @@ footer {
 }
 
 .logo {
+    opacity: 0;
     width: 100vw;
     padding: 1em;
     position: fixed;
