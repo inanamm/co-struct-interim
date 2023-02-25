@@ -79,7 +79,13 @@ body {
     position: relative;
 
     @font-face {
-        font-family: "Monospac821 BT"; src: url("assets/Monospace821BT.woff") format("woff"); src: url("assets/Monospace821BT.woff2") format("woff2"); 
+        font-family: "Monospace821 BT"; 
+        src: url('monospace_821_bt_regular-webfont.eot');
+        src: url('monospace_821_bt_regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('Monospace821BTRegular.woff2') format('woff2'),
+             url('Monospace821BT.woff') format('woff'), 
+             url('monospace_821_bt_regular-webfont.ttf')  format('truetype'),
+             url('monospace_821_bt_regular-webfont.svg#Monospace821 BT') format('svg');
     }
 }
 
