@@ -1,4 +1,3 @@
-@import "_reset.css";
 @import url(//db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT);
 
 :root {
@@ -7,7 +6,6 @@
 
 html {
     height: 100%;
-    /* background-color: grey; */
     color: black;
     text-align: center;
     font-family: 'Monospac821 BT';
