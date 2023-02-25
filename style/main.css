@@ -67,10 +67,32 @@ footer {
     vertical-align: top;
 }
 
-svg {
+.logo {
+    width: 100vw;
+    padding: 1em;
     position: fixed;
-    size: 50%;
+    display: flex;
+    flex-direction: column;
 }
+
+.logoFirst {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.dash {
+    width: 100%;
+    height: 0.475rem;
+    background: black;
+    margin-top: 0.55rem;
+    align-self: center;
+}
+
+.logoSecond {
+    display: flex;
+}
+
 
 @media only screen and (max-width: 1000px) {
     footer {
