@@ -80,12 +80,12 @@ body {
 
     @font-face {
         font-family: "Monospac821 BT"; 
-        src: url('monospace_821_bt_regular-webfont.eot');
-        src: url('monospace_821_bt_regular-webfont.eot?#iefix') format('embedded-opentype'),
-             url('Monospace821BTRegular.woff2') format('woff2'),
-             url('Monospace821BT.woff') format('woff'), 
-             url('monospace_821_bt_regular-webfont.ttf')  format('truetype'),
-             url('monospace_821_bt_regular-webfont.svg#Monospac821 BT') format('svg');
+        src: url('assets/monospace_821_bt_regular-webfont.eot');
+        src: url('assets/monospace_821_bt_regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('assets/Monospace821BTRegular.woff2') format('woff2'),
+             url('assets/Monospace821BT.woff') format('woff'), 
+             url('assets/monospace_821_bt_regular-webfont.ttf')  format('truetype'),
+             url('assets/monospace_821_bt_regular-webfont.svg#Monospac821 BT') format('svg');
     }
 }
 
