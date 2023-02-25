@@ -79,7 +79,7 @@ body {
     position: relative;
 
     @font-face {
-        font-family: "Monospac821 BT"; src: url("assets/Monospace821BT.woff") format("woff"); 
+        font-family: "Monospac821 BT"; src: url("assets/Monospace821BT.woff") format("woff"); src: url("assets/Monospace821BT.woff2") format("woff2"); 
     }
 }
 
