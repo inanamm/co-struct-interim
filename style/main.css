@@ -1,10 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT);
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*  REESET CSS
+
+http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,7 +52,7 @@ table {
 
 html {box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit;}
-
+/*  ENDRESET CSS  */
 
 :root {
     --background: url('../assets/Image_1.jpg')
@@ -128,12 +129,11 @@ footer {
 
 .logoFirst {
     display: flex;
-    justify-content: flex-end;
     align-items: baseline;
 }
 
 .dash {
-    width: 100%;
+    width: 7%;
     height: 0.475rem;
     background: black;
     margin-top: 0.55rem;

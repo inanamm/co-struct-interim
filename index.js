@@ -4,3 +4,12 @@ const backgroundImage = backgroundImages[Math.floor(Math.random()*backgroundImag
 
 let style = document.querySelector('body').style;
 style.setProperty('--background', backgroundImage);
+
+
+
+anime({
+    targets: '.dash',
+    width: '100%',
+    duration: 8000,
+    easing: 'easeInOutCubic'
+  });
