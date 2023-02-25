@@ -57,7 +57,7 @@
 
 
 :root {
-    --background: url('../assets/Image_1.jpg')
+    --background: url('../assets/Image_1.webp')
 }
 
 html {
@@ -79,13 +79,13 @@ body {
     position: relative;
 
     @font-face {
-        font-family: "Monospace821 BT"; 
+        font-family: "Monospac821 BT"; 
         src: url('monospace_821_bt_regular-webfont.eot');
         src: url('monospace_821_bt_regular-webfont.eot?#iefix') format('embedded-opentype'),
              url('Monospace821BTRegular.woff2') format('woff2'),
              url('Monospace821BT.woff') format('woff'), 
              url('monospace_821_bt_regular-webfont.ttf')  format('truetype'),
-             url('monospace_821_bt_regular-webfont.svg#Monospace821 BT') format('svg');
+             url('monospace_821_bt_regular-webfont.svg#Monospac821 BT') format('svg');
     }
 }
 
