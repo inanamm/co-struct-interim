@@ -1,4 +1,4 @@
-const backgroundImages = ['url(../assets/Image_1.jpg)', 'url(../assets/Image_2.jpg)', 'url(../assets/Image_3.jpg)']
+const backgroundImages = ['url(../assets/Image_1.webp)', 'url(../assets/Image_2.webp)', 'url(../assets/Image_3.webp)']
 
 const backgroundImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
 
