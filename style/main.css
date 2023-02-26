@@ -1,6 +1,6 @@
 
-/*  REESET CSS
-
+/*  REESET CSS */ /*  REESET CSS */ /*  REESET CSS */ /*  REESET CSS */ /*  REESET CSS */
+        /*
         http://meyerweb.com/eric/tools/css/reset/ 
         v2.0 | 20110126
         License: none (public domain)
@@ -51,7 +51,7 @@
 
         html {box-sizing: border-box;}
         *, *:before, *:after {box-sizing: inherit;}
-/*  ENDRESET CSS  */
+/*  END RESET CSS  */ /*  END RESET CSS  */ /*  END RESET CSS  */ /*  END RESET CSS  */
 
 
 
@@ -63,7 +63,7 @@ html {
     height: 100%;
     color: black;
     text-align: center;
-    font-family: 'Monospac821BTWGL4W05-Roman';
+    font-family: 'Monospac821BTWGL4W05-Roman', monospace;
     letter-spacing: 0.015em;
     font-size: 1em;
     text-align: left;
@@ -79,12 +79,12 @@ body {
 
     @font-face {
         font-family: 'Monospac821BTWGL4W05-Roman';
-        src: url('Monospac821BTWGL4W05-Roman.eot');
-        src: url('Monospac821BTWGL4W05-Roman.eot?#iefix') format('embedded-opentype'),
-            url('Monospac821BTWGL4W05-Roman.woff2') format('woff2'),
-            url('Monospac821BTWGL4W05-Roman.woff') format('woff'),
-            url('Monospac821BTWGL4W05-Roman.ttf') format('truetype'),
-            url('Monospac821BTWGL4W05-Roman.svg#Monospac821BTWGL4W05-Roman') format('svg');
+        src: url('assets/Monospac821BTWGL4W05-Roman.eot');
+        src: url('assets/Monospac821BTWGL4W05-Roman.eot?#iefix') format('embedded-opentype'),
+            url('assets/Monospac821BTWGL4W05-Roman.woff2') format('woff2'),
+            url('assets/Monospac821BTWGL4W05-Roman.woff') format('woff'),
+            url('assets/Monospac821BTWGL4W05-Roman.ttf') format('truetype'),
+            url('assets/Monospac821BTWGL4W05-Roman.svg#Monospac821BTWGL4W05-Roman') format('svg');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
