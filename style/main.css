@@ -55,12 +55,12 @@
 
 @font-face {
     font-family: 'Monospac821BTWGL4W05-Roman';
-    src: url('assets/Monospac821BTWGL4W05-Roman.eot');
-    src: url('assets/Monospac821BTWGL4W05-Roman.eot?#iefix') format('embedded-opentype'),
-        url('assets/Monospac821BTWGL4W05-Roman.woff2') format('woff2'),
-        url('assets/Monospac821BTWGL4W05-Roman.woff') format('woff'),
-        url('assets/Monospac821BTWGL4W05-Roman.ttf') format('truetype'),
-        url('assets/Monospac821BTWGL4W05-Roman.svg#Monospac821BTWGL4W05-Roman') format('svg');
+    src: url('../assets/Monospac821BTWGL4W05-Roman.eot');
+    src: url('../assets/Monospac821BTWGL4W05-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../assets/Monospac821BTWGL4W05-Roman.woff2') format('woff2'),
+        url('../assets/Monospac821BTWGL4W05-Roman.woff') format('woff'),
+        url('../assets/Monospac821BTWGL4W05-Roman.ttf') format('truetype'),
+        url('../assets/Monospac821BTWGL4W05-Roman.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -78,6 +78,9 @@ html {
     letter-spacing: 0.015em;
     font-size: 1em;
     text-align: left;
+
+    -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
 }
 
 a {
