@@ -57,17 +57,7 @@
 
 :root {
     --background: url('../assets/Image_1.webp')
-}
 
-html {
-    height: 100%;
-    color: black;
-    text-align: center;
-    font-family: 'Monospac821BTWGL4W05-Roman', monospace;
-    letter-spacing: 0.015em;
-    font-size: 1em;
-    text-align: left;
-     
     @font-face {
         font-family: 'Monospac821BTWGL4W05-Roman';
         src: url('assets/Monospac821BTWGL4W05-Roman.eot');
@@ -80,6 +70,16 @@ html {
         font-style: normal;
         font-display: swap;
     }
+}
+
+html {
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-family: 'Monospac821BTWGL4W05-Roman';
+    letter-spacing: 0.015em;
+    font-size: 1em;
+    text-align: left;
 }
 
 a {
